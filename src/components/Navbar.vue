@@ -1,11 +1,6 @@
 <template>
-  <nav class="w-full bg-red-200 flex items-center justify-between py-2 px-8">
-    <h1 class="text-2xl font-bold text-center py-2">VelvetLettr</h1>
-    <ul class="ml-auto w-full max-w-xs flex justify-between">
-      <li><router-link class="text-black hover:text-red-500 hover:cursor-pointer" to="/">Home</router-link></li>
-      <li><router-link class="text-black hover:text-red-500 hover:cursor-pointer" to="/about">About</router-link></li>
-      <li><router-link class="text-black hover:text-red-500 hover:cursor-pointer" to="/contact">Contact</router-link>
-      </li>
-    </ul>
+  <nav class="w-full flex items-center  py-6 px-14 absolute">
+    <div class="rounded-xl mr-3 bg-red-500 w-10 h-10"></div>
+    <h1 class="text-2xl font-bold text-center py-2 offside-regular">VelvetLettr</h1>
   </nav>
 </template>
