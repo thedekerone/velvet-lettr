@@ -12,8 +12,8 @@ setInterval(() => {
 </script>
 
 <template>
-  <div :key="index" v-for="(particle, index) in particles">
-    <div
+  <div class="absolute top-0 bottom-0 w-full h-full overflow-hidden">
+    <div :key="index" v-for="(particle, index) in particles"
       :style="{ top: particle.position.y + 'px', left: particle.position.x + 'px', width: particle.size + 'px', height: particle.size + 'px', backgroundColor: particle.color }"
       class="rounded-full bg-primary-400 absolute -z-10 particle-animation"></div>
   </div>
